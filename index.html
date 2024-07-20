@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> resume </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </link>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+    .whole{
+    background-color: rgb(233, 234, 237);
+}
+.left{
+    background-color: rgb(115, 133, 150);
+    height: auto;
+    min-height: 700px;
+    border-top-right-radius: 300px;
+    color: white;
+}
+.profile{
+    border-top-right-radius: 200px;
+    border: 5px solid white;
+}
+
+.contact{
+    height: 30px;
+    width: 90%;
+    background-color: white;
+    border-top-right-radius: 100px;
+    margin-left: -20px;
+}
+.contact p{
+    font-size: 1.1rem;
+    font-weight: 560;
+    padding-left: 20%;
+    color: rgb(16, 47, 75);
+    letter-spacing: 4px;
+}
+.icons{
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 1em;
+}
+.icons i{
+    margin-right: 4px;
+}
+.bg{
+    background-color: rgb(115, 133, 150);
+}
+.table td{
+    list-style-type: square;
+}
+.mainname{
+    color: rgb(16, 47, 75);
+    position: absolute;
+    top: 85px;
+    left: 536px;
+    letter-spacing: 3px;
+    font-size: 5vh;
+}
+
+.profile-ct{
+    height: 30px;
+    width: 47%;
+    background-color: rgb(115, 133, 150);
+    border-top-right-radius: 100px;
+    margin-left:-60px;
+    padding-left: 9%;
+}
+.profile-ct p{
+    font-size: 1.1rem;
+    font-weight: 560;
+    padding-left: 20%;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.about_me{
+    margin-left:-60px;
+    padding-left: 16.5%;
+}
+
+.content{
+    margin-left:-60px;
+    padding-left: 16.5%;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 800px){
+    img{
+        transform: translateX(-20px);
+    }
+    .mainname{
+        position: absolute;
+        top: 85px;
+        left: 300px;
+    }
+    .mainname p{
+        position: absolute;
+        top: 130px;
+        left: 350px;
+    }
+    .contact{
+        margin-left: -10%;
+        width: 95%;
+    }
+    .contact p{
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 600px){
+    
+    img{
+        transform: translateX(-15px);
+    }
+    .mainname{
+        position: absolute;
+        top: 85px;
+        left: 290px;
+        
+    }
+    .left{
+        width: 45%;
+        margin-right: -90px;
+    }
+    .profile-ct{
+        margin-left: 10px;
+        width: 75%;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+            .mainname {
+                position: static;
+                text-align: center;
+                margin-top: 1rem;
+            }
+
+            .mainname p {
+                position: static;
+                text-align: center;
+            }
+
+            .left {
+                width: 100%;
+                margin-right: 0;
+                border-top-right-radius: 0;
+                border-top-left-radius: 0;
+                min-height: 0;
+            }
+
+            .profile-ct,
+            .about_me,
+            .content {
+                margin-left: 0;
+                padding-left: 0;
+                width: 100%;
+            }
+        }
+
+
+</style>
+</head>
+
+<body>
+
+    <div class=" whole container my-4">
+        <div class="row">
+            <div style="z-index: 1;" class="col-3 left">
+                <img style="z-index: -1;" src="6.jpeg" alt="profile pic" class="img-fluid profile mx-3 my-5" height="250px" width="250px">
+
+                <div class="contact">
+                    <p>CONTACT</p>
+                </div>
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;"><i
+                                    class="fa-solid fa-phone"></i></td>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;">97XXX-XXX14</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;"><i
+                                    class="fa-solid fa-location-dot"></i></td>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;">123,XYZ Residency, Surat
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;"> <i
+                                    class="fa-brands fa-github"></i></td>
+                            <td style="background-color:  rgb(115, 133, 150);color: white;">www.MyGit.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <div class="contact">
+                    <p>LANGUAGES</p>
+                </div>
+
+                <table class="table">
+                    <tbody>
+                        <ul>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li>English</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li> Hindi</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li>Gujarati</li>
+                                </td>
+                            </tr>
+                            
+                        </ul>
+                    </tbody>
+                </table>
+                <br>
+                <div class="contact">
+                    <p>SKILLS</p>
+                </div>
+
+                <table class="last table">
+                    <tbody>
+                        <ul>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li>Python</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li> Java </li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li> HTML5/CSS </li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li> VB.net </li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style="background-color:  rgb(115, 133, 150);color: white; ">
+                                    <li> JavaScript </li>
+                                </td>
+                            </tr>
+                        </ul>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+            <div class="col-9 right">
+                <br><br><br><br><br><br><br>
+                <h1 class="mainname">DIYA JOGANI</h1>
+                <p class="mainname"
+                    style="position: absolute; top: 130px; left: 540px; font-size: 3vh; letter-spacing: 2px;">Student
+                </p>
+
+                <div class="profile-ct">
+                    <p> PROFILE </p>
+                </div>
+                <br>
+                <p class="about_me">To establish a career in a Full Stack Developer where my skills caan contribute to the company's goal and achievements and also aid my own personal and professional goals.</p>
+
+                <div class="profile-ct">
+                    <p> EDUCATION </p>
+                </div>
+                <br>
+                <div class="content">
+                    <h5 class="font-weight-bold my-3">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Bachelor of Computer Applications (pursuing)
+                    </h5>
+                    <p class="text-muted mb-1">Institute: SDJ International College</p>
+                    <p class="text-muted mb-1">YGPA: 8.37</p>
+                </div>
+
+                <div class="content">
+                    <h5 class="font-weight-bold  my-3">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        H.S.C
+                    </h5>
+                    <p class="text-muted mb-1">Institute: Sanskar Bharti Vidyalaya</p>
+                    <p class="text-muted mb-1">Grade: 91.87%</p>
+                </div>
+
+                <div class="content">
+                    <h5 class="font-weight-bold my-3">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        S.S.C
+                    </h5>
+                    <p class="text-muted mb-1">Institute: Sanskar Bharti Vidyalaya</p>
+                    <p class="text-muted mb-1">grade: 81.84%</p>
+                </div>
+
+                <div class="profile-ct my-3">
+                    <p> PROJECTS </p>
+                </div>
+                
+                <table class="table" style="margin-left: 4.5%;">
+                        <ul>
+                            <tr>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li>Food Website</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li> Amazon Clone Page</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li>Alibaba Clone Page</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li>Employe Managament System</li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li style="list-style-type: none;"></li>
+                                </td>
+                                <td style=" background-color: rgb(233, 234, 237);">
+                                    <li>Customer Managament System</li>
+                                </td>
+                            </tr>
+                        </ul>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
